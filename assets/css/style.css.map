@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss"
+	],
+	"sourcesContent": [
+		"@charset \"utf-8\";\n\n/*\n Kollap CSS v1.0\n ----------------------------------------------------------\n   Copyright (c) 2021, kollap.app. All rights reserved.\n   Coded and Authored with all the love in the world.\n   Coder: Hashem Zahran || @hezahran\n ------------------------------------------------------------*/\n\n// mixins\n@mixin media-query($device) {\n    @media screen and (max-width: $device) {\n        @content;\n    }\n}\n@mixin border-radius($radius) {\n  -webkit-border-radius: $radius;\n     -moz-border-radius: $radius;\n      -ms-border-radius: $radius;\n          border-radius: $radius;\n}\n@mixin box-shadow($top, $left, $blur, $color, $inset: false) {\n  @if $inset {\n    -webkit-box-shadow:inset $top $left $blur $color;\n       -moz-box-shadow:inset $top $left $blur $color;\n            box-shadow:inset $top $left $blur $color;\n  } @else {\n    -webkit-box-shadow: $top $left $blur $color;\n       -moz-box-shadow: $top $left $blur $color;\n            box-shadow: $top $left $blur $color;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAEA,sRAM+D"
+}

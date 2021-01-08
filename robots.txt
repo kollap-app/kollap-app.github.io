@@ -1,0 +1,3 @@
+# http://www.robotstxt.org/
+user-agent: *
+Sitemap: https://kollap.app/sitemap.xml
