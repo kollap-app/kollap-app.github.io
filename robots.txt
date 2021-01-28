@@ -1,3 +1,5 @@
 # http://www.robotstxt.org/
 user-agent: *
+Allow: /index.html
+Disallow: /*.html
 Sitemap: https://kollap.app/sitemap.xml
